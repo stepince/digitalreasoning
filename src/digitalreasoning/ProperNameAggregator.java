@@ -148,14 +148,14 @@ public class ProperNameAggregator {
     public List<String> execute() {
 
         // create a thread-safe concurrent set
-        Set<String> set = Collections.newSetFromMap(new ConcurrentHashMap<String, Boolean>());
+        Set<String> setOutput = Collections.newSetFromMap(new ConcurrentHashMap<String, Boolean>());
         
         File[] files = IOUtil.list(this.directory);
 
         ExecutorService executor = Executors.newFixedThreadPool(workers);
 
         for (File f : files) {
-            executor.execute(new ProperNameAdderTask(this.dictionary, f.getAbsolutePath(), set));
+            executor.execute(new ProperNameAdderTask(this.dictionary, f.getAbsolutePath(), setOutput));
         }
 
         executor.shutdown();
@@ -167,7 +167,7 @@ public class ProperNameAggregator {
             //System.err.println("exception: " + ignore);
         }
         
-        List<String> properNames = new ArrayList<String>(set);
+        List<String> properNames = new ArrayList<String>(setOutput);
         Collections.sort(properNames);
         return properNames;
     }
