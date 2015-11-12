@@ -1,0 +1,867 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="">
+    <sentenceToken>
+        <token xsi:type="wordToken">
+            <text>The</text>
+        </token>
+        <token xsi:type="nonWordToken">
+            <text> </text>
+        </token>
+        <token xsi:type="wordToken">
+            <text>term</text>
+        </token>
+        <token xsi:type="nonWordToken">
+            <text> </text>
+        </token>
+        <token xsi:type="nonWordToken">
+            <text>&quot;</text>
+        </token>
+        <token xsi:type="wordToken">
+            <text>First</text>
+        </token>
+        <token xsi:type="nonWordToken">
+            <text> </text>
+        </token>
+        <token xsi:type="wordToken">
+            <text>World</text>
+        </token>
+        <token xsi:type="nonWordToken">
+            <text> </text>
+        </token>
+        <token xsi:type="wordToken">
+            <text>War</text>
+        </token>
+        <token xsi:type="nonWordToken">
+            <text>&quot;</text>
+        </token>
+        <token xsi:type="nonWordToken">
+            <text> </text>
+        </token>
+        <token xsi:type="wordToken">
+            <text>was</text>
+        </token>
+        <token xsi:type="nonWordToken">
+            <text> </text>
+        </token>
+        <token xsi:type="wordToken">
+            <text>first</text>
+        </token>
+        <token xsi:type="nonWordToken">
+            <text> </text>
+        </token>
+        <token xsi:type="wordToken">
+            <text>used</text>
+        </token>
+        <token xsi:type="nonWordToken">
+            <text> </text>
+        </token>
+        <token xsi:type="wordToken">
+            <text>in</text>
+        </token>
+        <token xsi:type="nonWordToken">
+            <text> </text>
+        </token>
+        <token xsi:type="wordToken">
+            <text>September</text>
+        </token>
+        <token xsi:type="nonWordToken">
+            <text> </text>
+        </token>
+        <token xsi:type="wordToken">
+            <text>1914</text>
+        </token>
+        <token xsi:type="nonWordToken">
+            <text> </text>
+        </token>
+        <token xsi:type="wordToken">
+            <text>by</text>
+        </token>
+        <token xsi:type="nonWordToken">
+            <text> </text>
+        </token>
+        <token xsi:type="wordToken">
+            <text>the</text>
+        </token>
+        <token xsi:type="nonWordToken">
+            <text> </text>
+        </token>
+        <token xsi:type="wordToken">
+            <text>German</text>
+        </token>
+        <token xsi:type="nonWordToken">
+            <text> </text>
+        </token>
+        <token xsi:type="wordToken">
+            <text>philosopher</text>
+        </token>
+        <token xsi:type="nonWordToken">
+            <text> </text>
+        </token>
+        <token xsi:type="wordToken">
+            <text>Ernst</text>
+        </token>
+        <token xsi:type="nonWordToken">
+            <text> </text>
+        </token>
+        <token xsi:type="wordToken">
+            <text>Haeckel</text>
+        </token>
+        <token xsi:type="nonWordToken">
+            <text>,</text>
+        </token>
+        <token xsi:type="nonWordToken">
+            <text> </text>
+        </token>
+        <token xsi:type="wordToken">
+            <text>who</text>
+        </token>
+        <token xsi:type="nonWordToken">
+            <text> </text>
+        </token>
+        <token xsi:type="wordToken">
+            <text>claimed</text>
+        </token>
+        <token xsi:type="nonWordToken">
+            <text> </text>
+        </token>
+        <token xsi:type="wordToken">
+            <text>that</text>
+        </token>
+        <token xsi:type="nonWordToken">
+            <text> </text>
+        </token>
+        <token xsi:type="nonWordToken">
+            <text>&quot;</text>
+        </token>
+        <token xsi:type="wordToken">
+            <text>there</text>
+        </token>
+        <token xsi:type="nonWordToken">
+            <text> </text>
+        </token>
+        <token xsi:type="wordToken">
+            <text>is</text>
+        </token>
+        <token xsi:type="nonWordToken">
+            <text> </text>
+        </token>
+        <token xsi:type="wordToken">
+            <text>no</text>
+        </token>
+        <token xsi:type="nonWordToken">
+            <text> </text>
+        </token>
+        <token xsi:type="wordToken">
+            <text>doubt</text>
+        </token>
+        <token xsi:type="nonWordToken">
+            <text> </text>
+        </token>
+        <token xsi:type="wordToken">
+            <text>that</text>
+        </token>
+        <token xsi:type="nonWordToken">
+            <text> </text>
+        </token>
+        <token xsi:type="wordToken">
+            <text>the</text>
+        </token>
+        <token xsi:type="nonWordToken">
+            <text> </text>
+        </token>
+        <token xsi:type="wordToken">
+            <text>course</text>
+        </token>
+        <token xsi:type="nonWordToken">
+            <text> </text>
+        </token>
+        <token xsi:type="wordToken">
+            <text>and</text>
+        </token>
+        <token xsi:type="nonWordToken">
+            <text> </text>
+        </token>
+        <token xsi:type="wordToken">
+            <text>character</text>
+        </token>
+        <token xsi:type="nonWordToken">
+            <text> </text>
+        </token>
+        <token xsi:type="wordToken">
+            <text>of</text>
+        </token>
+        <token xsi:type="nonWordToken">
+            <text> </text>
+        </token>
+        <token xsi:type="wordToken">
+            <text>the</text>
+        </token>
+        <token xsi:type="nonWordToken">
+            <text> </text>
+        </token>
+        <token xsi:type="wordToken">
+            <text>feared</text>
+        </token>
+        <token xsi:type="nonWordToken">
+            <text> </text>
+        </token>
+        <token xsi:type="nonWordToken">
+            <text>'</text>
+        </token>
+        <token xsi:type="wordToken">
+            <text>European</text>
+        </token>
+        <token xsi:type="nonWordToken">
+            <text> </text>
+        </token>
+        <token xsi:type="wordToken">
+            <text>War</text>
+        </token>
+        <token xsi:type="nonWordToken">
+            <text>'</text>
+        </token>
+        <token xsi:type="nonWordToken">
+            <text> </text>
+        </token>
+        <token xsi:type="nonWordToken">
+            <text>.</text>
+        </token>
+        <token xsi:type="nonWordToken">
+            <text>.</text>
+        </token>
+        <token xsi:type="nonWordToken">
+            <text>.</text>
+        </token>
+        <token xsi:type="nonWordToken">
+            <text> </text>
+        </token>
+        <token xsi:type="wordToken">
+            <text>will</text>
+        </token>
+        <token xsi:type="nonWordToken">
+            <text> </text>
+        </token>
+        <token xsi:type="wordToken">
+            <text>become</text>
+        </token>
+        <token xsi:type="nonWordToken">
+            <text> </text>
+        </token>
+        <token xsi:type="wordToken">
+            <text>the</text>
+        </token>
+        <token xsi:type="nonWordToken">
+            <text> </text>
+        </token>
+        <token xsi:type="wordToken">
+            <text>first</text>
+        </token>
+        <token xsi:type="nonWordToken">
+            <text> </text>
+        </token>
+        <token xsi:type="wordToken">
+            <text>world</text>
+        </token>
+        <token xsi:type="nonWordToken">
+            <text> </text>
+        </token>
+        <token xsi:type="wordToken">
+            <text>war</text>
+        </token>
+        <token xsi:type="nonWordToken">
+            <text> </text>
+        </token>
+        <token xsi:type="wordToken">
+            <text>in</text>
+        </token>
+        <token xsi:type="nonWordToken">
+            <text> </text>
+        </token>
+        <token xsi:type="wordToken">
+            <text>the</text>
+        </token>
+        <token xsi:type="nonWordToken">
+            <text> </text>
+        </token>
+        <token xsi:type="wordToken">
+            <text>full</text>
+        </token>
+        <token xsi:type="nonWordToken">
+            <text> </text>
+        </token>
+        <token xsi:type="wordToken">
+            <text>sense</text>
+        </token>
+        <token xsi:type="nonWordToken">
+            <text> </text>
+        </token>
+        <token xsi:type="wordToken">
+            <text>of</text>
+        </token>
+        <token xsi:type="nonWordToken">
+            <text> </text>
+        </token>
+        <token xsi:type="wordToken">
+            <text>the</text>
+        </token>
+        <token xsi:type="nonWordToken">
+            <text> </text>
+        </token>
+        <token xsi:type="wordToken">
+            <text>word</text>
+        </token>
+        <token xsi:type="nonWordToken">
+            <text>.</text>
+        </token>
+        <token xsi:type="nonWordToken">
+            <text>&quot;</text>
+        </token>
+        <token xsi:type="nonWordToken">
+            <text>
+</text>
+        </token>
+        <token xsi:type="nonWordToken">
+            <text>
+</text>
+        </token>
+    </sentenceToken>
+    <sentenceToken>
+        <token xsi:type="wordToken">
+            <text>Why</text>
+        </token>
+        <token xsi:type="nonWordToken">
+            <text> </text>
+        </token>
+        <token xsi:type="wordToken">
+            <text>did</text>
+        </token>
+        <token xsi:type="nonWordToken">
+            <text> </text>
+        </token>
+        <token xsi:type="wordToken">
+            <text>the</text>
+        </token>
+        <token xsi:type="nonWordToken">
+            <text> </text>
+        </token>
+        <token xsi:type="wordToken">
+            <text>war</text>
+        </token>
+        <token xsi:type="nonWordToken">
+            <text> </text>
+        </token>
+        <token xsi:type="wordToken">
+            <text>begin</text>
+        </token>
+        <token xsi:type="nonWordToken">
+            <text>?</text>
+        </token>
+        <token xsi:type="nonWordToken">
+            <text> </text>
+        </token>
+    </sentenceToken>
+    <sentenceToken>
+        <token xsi:type="wordToken">
+            <text>The</text>
+        </token>
+        <token xsi:type="nonWordToken">
+            <text> </text>
+        </token>
+        <token xsi:type="wordToken">
+            <text>immediate</text>
+        </token>
+        <token xsi:type="nonWordToken">
+            <text> </text>
+        </token>
+        <token xsi:type="wordToken">
+            <text>trigger</text>
+        </token>
+        <token xsi:type="nonWordToken">
+            <text> </text>
+        </token>
+        <token xsi:type="wordToken">
+            <text>for</text>
+        </token>
+        <token xsi:type="nonWordToken">
+            <text> </text>
+        </token>
+        <token xsi:type="wordToken">
+            <text>war</text>
+        </token>
+        <token xsi:type="nonWordToken">
+            <text> </text>
+        </token>
+        <token xsi:type="wordToken">
+            <text>was</text>
+        </token>
+        <token xsi:type="nonWordToken">
+            <text> </text>
+        </token>
+        <token xsi:type="wordToken">
+            <text>the</text>
+        </token>
+        <token xsi:type="nonWordToken">
+            <text> </text>
+        </token>
+        <token xsi:type="wordToken">
+            <text>28</text>
+        </token>
+        <token xsi:type="nonWordToken">
+            <text> </text>
+        </token>
+        <token xsi:type="wordToken">
+            <text>June</text>
+        </token>
+        <token xsi:type="nonWordToken">
+            <text> </text>
+        </token>
+        <token xsi:type="wordToken">
+            <text>1914</text>
+        </token>
+        <token xsi:type="nonWordToken">
+            <text> </text>
+        </token>
+        <token xsi:type="wordToken">
+            <text>assassination</text>
+        </token>
+        <token xsi:type="nonWordToken">
+            <text> </text>
+        </token>
+        <token xsi:type="wordToken">
+            <text>of</text>
+        </token>
+        <token xsi:type="nonWordToken">
+            <text> </text>
+        </token>
+        <token xsi:type="wordToken">
+            <text>Archduke</text>
+        </token>
+        <token xsi:type="nonWordToken">
+            <text> </text>
+        </token>
+        <token xsi:type="wordToken">
+            <text>Franz</text>
+        </token>
+        <token xsi:type="nonWordToken">
+            <text> </text>
+        </token>
+        <token xsi:type="wordToken">
+            <text>Ferdinand</text>
+        </token>
+        <token xsi:type="nonWordToken">
+            <text> </text>
+        </token>
+        <token xsi:type="wordToken">
+            <text>of</text>
+        </token>
+        <token xsi:type="nonWordToken">
+            <text> </text>
+        </token>
+        <token xsi:type="wordToken">
+            <text>Austria</text>
+        </token>
+        <token xsi:type="nonWordToken">
+            <text>,</text>
+        </token>
+        <token xsi:type="nonWordToken">
+            <text> </text>
+        </token>
+        <token xsi:type="wordToken">
+            <text>heir</text>
+        </token>
+        <token xsi:type="nonWordToken">
+            <text> </text>
+        </token>
+        <token xsi:type="wordToken">
+            <text>to</text>
+        </token>
+        <token xsi:type="nonWordToken">
+            <text> </text>
+        </token>
+        <token xsi:type="wordToken">
+            <text>the</text>
+        </token>
+        <token xsi:type="nonWordToken">
+            <text> </text>
+        </token>
+        <token xsi:type="wordToken">
+            <text>throne</text>
+        </token>
+        <token xsi:type="nonWordToken">
+            <text> </text>
+        </token>
+        <token xsi:type="wordToken">
+            <text>of</text>
+        </token>
+        <token xsi:type="nonWordToken">
+            <text> </text>
+        </token>
+        <token xsi:type="wordToken">
+            <text>Austria-Hungary</text>
+        </token>
+        <token xsi:type="nonWordToken">
+            <text>,</text>
+        </token>
+        <token xsi:type="nonWordToken">
+            <text> </text>
+        </token>
+        <token xsi:type="wordToken">
+            <text>by</text>
+        </token>
+        <token xsi:type="nonWordToken">
+            <text> </text>
+        </token>
+        <token xsi:type="wordToken">
+            <text>Yugoslav</text>
+        </token>
+        <token xsi:type="nonWordToken">
+            <text> </text>
+        </token>
+        <token xsi:type="wordToken">
+            <text>nationalist</text>
+        </token>
+        <token xsi:type="nonWordToken">
+            <text> </text>
+        </token>
+        <token xsi:type="wordToken">
+            <text>Gavrilo</text>
+        </token>
+        <token xsi:type="nonWordToken">
+            <text> </text>
+        </token>
+        <token xsi:type="wordToken">
+            <text>Princip</text>
+        </token>
+        <token xsi:type="nonWordToken">
+            <text> </text>
+        </token>
+        <token xsi:type="nonWordToken">
+            <text>(</text>
+        </token>
+        <token xsi:type="wordToken">
+            <text>19</text>
+        </token>
+        <token xsi:type="nonWordToken">
+            <text> </text>
+        </token>
+        <token xsi:type="wordToken">
+            <text>years</text>
+        </token>
+        <token xsi:type="nonWordToken">
+            <text> </text>
+        </token>
+        <token xsi:type="wordToken">
+            <text>old</text>
+        </token>
+        <token xsi:type="nonWordToken">
+            <text> </text>
+        </token>
+        <token xsi:type="wordToken">
+            <text>at</text>
+        </token>
+        <token xsi:type="nonWordToken">
+            <text> </text>
+        </token>
+        <token xsi:type="wordToken">
+            <text>the</text>
+        </token>
+        <token xsi:type="nonWordToken">
+            <text> </text>
+        </token>
+        <token xsi:type="wordToken">
+            <text>time</text>
+        </token>
+        <token xsi:type="nonWordToken">
+            <text>)</text>
+        </token>
+        <token xsi:type="nonWordToken">
+            <text> </text>
+        </token>
+        <token xsi:type="wordToken">
+            <text>in</text>
+        </token>
+        <token xsi:type="nonWordToken">
+            <text> </text>
+        </token>
+        <token xsi:type="wordToken">
+            <text>Sarajevo</text>
+        </token>
+        <token xsi:type="nonWordToken">
+            <text>.</text>
+        </token>
+        <token xsi:type="nonWordToken">
+            <text> </text>
+        </token>
+    </sentenceToken>
+    <sentenceToken>
+        <token xsi:type="wordToken">
+            <text>This</text>
+        </token>
+        <token xsi:type="nonWordToken">
+            <text> </text>
+        </token>
+        <token xsi:type="wordToken">
+            <text>set</text>
+        </token>
+        <token xsi:type="nonWordToken">
+            <text> </text>
+        </token>
+        <token xsi:type="wordToken">
+            <text>off</text>
+        </token>
+        <token xsi:type="nonWordToken">
+            <text> </text>
+        </token>
+        <token xsi:type="wordToken">
+            <text>a</text>
+        </token>
+        <token xsi:type="nonWordToken">
+            <text> </text>
+        </token>
+        <token xsi:type="wordToken">
+            <text>diplomatic</text>
+        </token>
+        <token xsi:type="nonWordToken">
+            <text> </text>
+        </token>
+        <token xsi:type="wordToken">
+            <text>crisis</text>
+        </token>
+        <token xsi:type="nonWordToken">
+            <text> </text>
+        </token>
+        <token xsi:type="wordToken">
+            <text>when</text>
+        </token>
+        <token xsi:type="nonWordToken">
+            <text> </text>
+        </token>
+        <token xsi:type="wordToken">
+            <text>Austria-Hungary</text>
+        </token>
+        <token xsi:type="nonWordToken">
+            <text> </text>
+        </token>
+        <token xsi:type="wordToken">
+            <text>delivered</text>
+        </token>
+        <token xsi:type="nonWordToken">
+            <text> </text>
+        </token>
+        <token xsi:type="wordToken">
+            <text>an</text>
+        </token>
+        <token xsi:type="nonWordToken">
+            <text> </text>
+        </token>
+        <token xsi:type="wordToken">
+            <text>ultimatum</text>
+        </token>
+        <token xsi:type="nonWordToken">
+            <text> </text>
+        </token>
+        <token xsi:type="wordToken">
+            <text>to</text>
+        </token>
+        <token xsi:type="nonWordToken">
+            <text> </text>
+        </token>
+        <token xsi:type="wordToken">
+            <text>the</text>
+        </token>
+        <token xsi:type="nonWordToken">
+            <text> </text>
+        </token>
+        <token xsi:type="wordToken">
+            <text>Kingdom</text>
+        </token>
+        <token xsi:type="nonWordToken">
+            <text> </text>
+        </token>
+        <token xsi:type="wordToken">
+            <text>of</text>
+        </token>
+        <token xsi:type="nonWordToken">
+            <text> </text>
+        </token>
+        <token xsi:type="wordToken">
+            <text>Serbia</text>
+        </token>
+        <token xsi:type="nonWordToken">
+            <text>,</text>
+        </token>
+        <token xsi:type="nonWordToken">
+            <text> </text>
+        </token>
+        <token xsi:type="wordToken">
+            <text>and</text>
+        </token>
+        <token xsi:type="nonWordToken">
+            <text> </text>
+        </token>
+        <token xsi:type="wordToken">
+            <text>entangled</text>
+        </token>
+        <token xsi:type="nonWordToken">
+            <text> </text>
+        </token>
+        <token xsi:type="wordToken">
+            <text>international</text>
+        </token>
+        <token xsi:type="nonWordToken">
+            <text> </text>
+        </token>
+        <token xsi:type="wordToken">
+            <text>alliances</text>
+        </token>
+        <token xsi:type="nonWordToken">
+            <text> </text>
+        </token>
+        <token xsi:type="wordToken">
+            <text>formed</text>
+        </token>
+        <token xsi:type="nonWordToken">
+            <text> </text>
+        </token>
+        <token xsi:type="wordToken">
+            <text>over</text>
+        </token>
+        <token xsi:type="nonWordToken">
+            <text> </text>
+        </token>
+        <token xsi:type="wordToken">
+            <text>the</text>
+        </token>
+        <token xsi:type="nonWordToken">
+            <text> </text>
+        </token>
+        <token xsi:type="wordToken">
+            <text>previous</text>
+        </token>
+        <token xsi:type="nonWordToken">
+            <text> </text>
+        </token>
+        <token xsi:type="wordToken">
+            <text>decades</text>
+        </token>
+        <token xsi:type="nonWordToken">
+            <text> </text>
+        </token>
+        <token xsi:type="wordToken">
+            <text>were</text>
+        </token>
+        <token xsi:type="nonWordToken">
+            <text> </text>
+        </token>
+        <token xsi:type="wordToken">
+            <text>invoked</text>
+        </token>
+        <token xsi:type="nonWordToken">
+            <text>.</text>
+        </token>
+        <token xsi:type="nonWordToken">
+            <text> </text>
+        </token>
+    </sentenceToken>
+    <sentenceToken>
+        <token xsi:type="wordToken">
+            <text>Within</text>
+        </token>
+        <token xsi:type="nonWordToken">
+            <text> </text>
+        </token>
+        <token xsi:type="wordToken">
+            <text>weeks</text>
+        </token>
+        <token xsi:type="nonWordToken">
+            <text>,</text>
+        </token>
+        <token xsi:type="nonWordToken">
+            <text> </text>
+        </token>
+        <token xsi:type="wordToken">
+            <text>the</text>
+        </token>
+        <token xsi:type="nonWordToken">
+            <text> </text>
+        </token>
+        <token xsi:type="wordToken">
+            <text>major</text>
+        </token>
+        <token xsi:type="nonWordToken">
+            <text> </text>
+        </token>
+        <token xsi:type="wordToken">
+            <text>powers</text>
+        </token>
+        <token xsi:type="nonWordToken">
+            <text> </text>
+        </token>
+        <token xsi:type="wordToken">
+            <text>were</text>
+        </token>
+        <token xsi:type="nonWordToken">
+            <text> </text>
+        </token>
+        <token xsi:type="wordToken">
+            <text>at</text>
+        </token>
+        <token xsi:type="nonWordToken">
+            <text> </text>
+        </token>
+        <token xsi:type="wordToken">
+            <text>war</text>
+        </token>
+        <token xsi:type="nonWordToken">
+            <text> </text>
+        </token>
+        <token xsi:type="wordToken">
+            <text>and</text>
+        </token>
+        <token xsi:type="nonWordToken">
+            <text> </text>
+        </token>
+        <token xsi:type="wordToken">
+            <text>the</text>
+        </token>
+        <token xsi:type="nonWordToken">
+            <text> </text>
+        </token>
+        <token xsi:type="wordToken">
+            <text>conflict</text>
+        </token>
+        <token xsi:type="nonWordToken">
+            <text> </text>
+        </token>
+        <token xsi:type="wordToken">
+            <text>soon</text>
+        </token>
+        <token xsi:type="nonWordToken">
+            <text> </text>
+        </token>
+        <token xsi:type="wordToken">
+            <text>spread</text>
+        </token>
+        <token xsi:type="nonWordToken">
+            <text> </text>
+        </token>
+        <token xsi:type="wordToken">
+            <text>around</text>
+        </token>
+        <token xsi:type="nonWordToken">
+            <text> </text>
+        </token>
+        <token xsi:type="wordToken">
+            <text>the</text>
+        </token>
+        <token xsi:type="nonWordToken">
+            <text> </text>
+        </token>
+        <token xsi:type="wordToken">
+            <text>world</text>
+        </token>
+        <token xsi:type="nonWordToken">
+            <text>.</text>
+        </token>
+    </sentenceToken>
+</document>

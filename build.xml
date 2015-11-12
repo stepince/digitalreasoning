@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project basedir="." default="compile" name="digitalreasoning">
+
+    <target name="init">
+        <!-- Create the timestamp -->
+        <tstamp/>
+        <!-- set global properties for this build -->
+        <property file="build.properties"/>
+
+        <property name="package.names" value="digitalreasoning.*"/>
+        <property name="src" value="src"/>
+        <property name="build" value="classes"/>
+
+        <property name="doc" value="docs"/>
+        <property name="javac.debug" value="false" />
+        <property name="javac.deprecation" value="on" />
+        <property name="javac.optimize" value="true" />
+        <property name="javac.compilerarg" value="-version" />
+        <echo message=" Java Home &apos;${java.home}&apos;"/>
+    </target>
+
+    <target depends="init" name="clean">
+        <!-- Delete the ${build} trees -->
+        <delete dir="${build}/digitalreasoning" />
+
+        <!-- Delete the output files -->
+        <delete file="part1_output.xml" />
+        <delete file="part2_output.txt" />
+        <delete file="part3_output.txt" />
+
+        <!-- Delete the ${doc} trees -->
+        <delete dir="${doc}" />
+    </target>
+
+    <target depends="init" name="javadoc">
+        <mkdir dir="${doc}"/>
+        <javadoc author="true" destdir="${doc}/api" doctitle="${ant.project.name} JavaDoc" noindex="true" 
+                 packagenames="${package.names}" sourcepath="${src}" windowtitle="${ant.project.name} JavaDoc"/>
+    </target>
+
+    <target depends="init" name="compile">
+        <mkdir dir="${build}"/>
+        <!-- Compile the java code from ${src} into ${build} -->
+        <javac debug="${javac.debug}" destdir="${build}" encoding="ISO8859_1" listfiles="yes" optimize="${javac.optimize}" srcdir="${src}" deprecation="${javac.deprecation}" includeantruntime="false" >
+            <compilerarg value="${javac.compilerarg}"  />
+        </javac>
+	<copy todir="${build}">
+            <fileset dir="${src}" includes="**/*.txt"/>
+	</copy>
+    </target>
+
+    <target depends="compile" name="run">
+       <!-- Run Question 1 -->
+       <java classname="digitalreasoning.DocumentTokenizer" classpath="${build}" dir="." fork="true" output="part1_output.xml" >
+            <arg value="nlp_data.txt"/>
+       </java>
+
+       <!-- Run Question 2 -->
+       <java classname="digitalreasoning.ProperNameDocumentTokenizer" classpath="${build}" dir="." fork="true" output="part2_output.txt">
+            <arg value="nlp_data.txt"/>
+       </java>
+
+       <java classname="digitalreasoning.ProperNameDocumentSerializer" classpath="${build}" dir="." fork="true" output="part2_output.xml">
+            <arg value="nlp_data.txt"/>
+       </java>
+
+       <!-- Run Question 3 -->
+       <java classname="digitalreasoning.ProperNameAggregator" classpath="${build}" dir="." fork="true" output="part3_output.txt">
+            <arg value="nlp_data"/>
+       </java>
+    </target>
+ 
+    <target depends="compile" name="test">
+       <!-- Test Question 1 -->
+       <java classname="digitalreasoning.TestDocumentTokenizer" classpath="${build}" dir="." fork="true" />
+
+       <!-- Test Question 2 -->
+       <java classname="digitalreasoning.TestProperNameDocumentTokenizer" classpath="${build}" dir="." fork="true" />
+       <!-- Test Question 3 -->
+       <java classname="digitalreasoning.TestProperNameAggregator" classpath="${build}" dir="." fork="true" />
+    </target>
+
+</project>
