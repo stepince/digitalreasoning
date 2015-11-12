@@ -268,8 +268,7 @@ public class ProperNameDocumentTokenizer extends DocumentTokenizer {
             String properWord = null;
 
             // check the case for a proper name
-            if (properNamesMap.containsKey(word)
-                    && ((properWord = getProperWord(word, source, firstIndex)) != null)) {
+            if ( (properWord = getProperWord(word, source, firstIndex)) != null ) {
                 sentenceTok.tokens.add(new ProperWordToken(properWord));
                 int initFirstIndex = firstIndex;
                 
