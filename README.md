@@ -81,6 +81,7 @@ Question 1.
 
 assumptions: US locale.  
 limitations: size of source files, size of dictionary.    
+alternative implementation: use a trie for data storage, it is more memory efficient.  
 <basedir>/src/digitalreasoning/DocumentTokenizer.java is the java source implementing for question 1.
 <basedir>/src/digitalreasoning/TestDocumentTokenizer.java is the unit test driver source for testing question 1.
 
