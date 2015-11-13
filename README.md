@@ -80,7 +80,7 @@ Question 1.
 ----------------------------------------------
 
 assumptions: US locale.  
-limitations: size of source files, size of dictionary.
+limitations: size of source files, size of dictionary.    
 <basedir>/src/digitalreasoning/DocumentTokenizer.java is the java source implementating for question 1.
 <basedir>/src/digitalreasoning/TestDocumentTokenizer.java is the unit test driver source for testing question 1.
 
@@ -94,20 +94,20 @@ alternative implementation: You could use a suffix tree for the sentence data st
 This would allow for constant time lookup of proper names. 
 Ukkonen's Algorithm can build a suffix tree in O(n).
 
-<basedir>/src/digitalreasoning/ProperNameDocumentTokenizer.java is the java source implementating for question 2.
-<basedir>/src/digitalreasoning/TestProperNameDocumentTokenizer.java is the unit test driver source for testing question 2.
+<basedir>/src/digitalreasoning/ProperNameDocumentTokenizer.java is the java source implementating for question 2.   
+<basedir>/src/digitalreasoning/TestProperNameDocumentTokenizer.java is the unit test driver source for testing question 2.     
 
 
 Question 3.
 ----------------------------------------------
 
 assumptions: US locale.    
-limitations: is the linear searching of proper names in a sentence, size of source files, size of dictionary.
+limitations: is the linear searching of proper names in a sentence, size of source files, size of dictionary.    
 alternative implementation: You could use a suffix tree for the sentence data structure. 
 This would allow for constant time lookup of proper names. 
 Ukkonen's Algorithm can build a suffix tree in O(n).
 
-<basedir>/src/digitalreasoning/ProperNameAggregator.java is the java source implementating for question 3.
-<basedir>/src/digitalreasoning/TestProperNameAggregator.java is the unit test driver source for testing question 3.
+<basedir>/src/digitalreasoning/ProperNameAggregator.java is the java source implementating for question 3.   
+<basedir>/src/digitalreasoning/TestProperNameAggregator.java is the unit test driver source for testing question 3.  
 
 
