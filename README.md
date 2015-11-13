@@ -79,7 +79,7 @@ All the java source are packaged in digitalreasoning are under <basedir>/src.
 Question 1.
 ----------------------------------------------
 
-assumptions: US locale.
+assumptions: US locale.  
 limitations: size of source files, size of dictionary.
 <basedir>/src/digitalreasoning/DocumentTokenizer.java is the java source implementating for question 1.
 <basedir>/src/digitalreasoning/TestDocumentTokenizer.java is the unit test driver source for testing question 1.
