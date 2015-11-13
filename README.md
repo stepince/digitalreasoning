@@ -29,8 +29,9 @@ $ ant test
 
 Executing
 -------------------------------- 
+##### the output will be in part1_output.xml, part2_output.txt, part2_output.xml, part3_output.txt.
 $ ant run
-the output will be in part1_output.xml, part2_output.txt, part2_output.xml, part3_output.txt
+
 
 
 Javadoc
@@ -63,7 +64,7 @@ Executing
 $ run_part[123]
 
 Where [123] represents the question number. 
-e.g. to execute question 1
+e.g. to execute question 1.
 
 $ run_part1
 
@@ -71,15 +72,15 @@ $ run_part1
 
 
 DESIGN and IMPLEMENTATION
-
+=============================================
 
 All the java source are packaged in digitalreasoning under <basedir>/src.
 
 Question 1.
 ----------------------------------------------
 
-assumption: US locale
-
+assumptions: US locale.
+limitations: size of source files, size of dictionary.
 <basedir>/src/digitalreasoning/DocumentTokenizer.java is the java source implementating for question 1.
 <basedir>/src/digitalreasoning/TestDocumentTokenizer.java is the unit test driver source for testing question 1.
 
@@ -87,8 +88,8 @@ assumption: US locale
 Question 2.
 ----------------------------------------------
 
-assumption: US locale
-limitation: is the linear searching of proper names in a sentence.
+assumptions: US locale.
+limitations: is the linear searching of proper names in a sentence, size of source files, size of dictionary.
 alternative implementation: You could use a suffix tree for the sentence data structure. 
 This would allow for constant time lookup of proper names. 
 Ukkonen's Algorithm can build a suffix tree in O(n).
@@ -100,8 +101,8 @@ Ukkonen's Algorithm can build a suffix tree in O(n).
 Question 3.
 ----------------------------------------------
 
-assumption: US locale
-limitation: is the linear searching of proper names in a sentence.
+assumptions: US locale
+limitations: is the linear searching of proper names in a sentence, size of source files, size of dictionary.
 alternative implementation: You could use a suffix tree for the sentence data structure. 
 This would allow for constant time lookup of proper names. 
 Ukkonen's Algorithm can build a suffix tree in O(n).
