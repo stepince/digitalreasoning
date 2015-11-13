@@ -74,7 +74,7 @@ $ run_part1
 DESIGN and IMPLEMENTATION
 =============================================
 
-All the java source are packaged in digitalreasoning under <basedir>/src.
+All the java source are packaged in digitalreasoning are under <basedir>/src.
 
 Question 1.
 ----------------------------------------------
@@ -88,7 +88,7 @@ limitations: size of source files, size of dictionary.
 Question 2.
 ----------------------------------------------
 
-assumptions: US locale.
+assumptions: US locale.  
 limitations: is the linear searching of proper names in a sentence, size of source files, size of dictionary.
 alternative implementation: You could use a suffix tree for the sentence data structure. 
 This would allow for constant time lookup of proper names. 
@@ -101,7 +101,7 @@ Ukkonen's Algorithm can build a suffix tree in O(n).
 Question 3.
 ----------------------------------------------
 
-assumptions: US locale
+assumptions: US locale.    
 limitations: is the linear searching of proper names in a sentence, size of source files, size of dictionary.
 alternative implementation: You could use a suffix tree for the sentence data structure. 
 This would allow for constant time lookup of proper names. 
