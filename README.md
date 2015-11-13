@@ -89,7 +89,7 @@ Question 2.
 ----------------------------------------------
 
 assumptions: US locale.  
-limitations: is the linear searching of proper names in a sentence, size of source files, size of dictionary.
+limitations: is the linear searching of proper names in a sentence, size of source files, size of dictionary.   
 alternative implementation: You could use a suffix tree for the sentence data structure. 
 This would allow for constant time lookup of proper names. 
 Ukkonen's Algorithm can build a suffix tree in O(n).
@@ -102,7 +102,7 @@ Question 3.
 ----------------------------------------------
 
 assumptions: US locale.    
-limitations: is the linear searching of proper names in a sentence, size of source files, size of dictionary.    
+limitations: is the linear searching of proper names in a sentence, size of source files, size of dictionary.      
 alternative implementation: You could use a suffix tree for the sentence data structure. 
 This would allow for constant time lookup of proper names. 
 Ukkonen's Algorithm can build a suffix tree in O(n).
