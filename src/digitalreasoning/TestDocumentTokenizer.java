@@ -1,5 +1,5 @@
 /**
- * This contains the Unti Test class for testing DocumentTokenizer
+ * This contains the Unit Test class for testing DocumentTokenizer
  * 
  */
 package digitalreasoning;

@@ -264,30 +264,31 @@ public class ProperNameDocumentTokenizer extends DocumentTokenizer {
         // loop-thru all the tokens (words/non-words) and
         // add the tokens to the sentence token
         while (lastIndex != BreakIterator.DONE) {
-            final String word = source.substring(firstIndex, lastIndex);
+            final String token = source.substring(firstIndex, lastIndex);
             String properWord = null;
 
             // check the case for a proper name
-            if ( (properWord = getProperWord(word, source, firstIndex)) != null ) {
+            if ( (properWord = getProperWord(token, source, firstIndex)) != null ) {
                 sentenceTok.tokens.add(new ProperWordToken(properWord));
-                int initFirstIndex = firstIndex;
                 
+                // fast-forward to the index after the properWord
+                int nextIndex = firstIndex + properWord.length();
                 while ( (lastIndex = wordIterator.next()) != BreakIterator.DONE ) {
-                    if(lastIndex >= (initFirstIndex + properWord.length()) ) {
-                        firstIndex = (initFirstIndex + properWord.length());
+                    if( lastIndex >= nextIndex ) {
+                        firstIndex = nextIndex;
                         break;
                     }
                 }    
             }
-            // check the case for word
-            else if (Character.isLetterOrDigit(word.charAt(0))) {
-                sentenceTok.tokens.add(new WordToken(word));
+            // check the case for a word
+            else if (Character.isLetterOrDigit(token.charAt(0))) {
+                sentenceTok.tokens.add(new WordToken(token));
                 firstIndex = lastIndex;
                 lastIndex = wordIterator.next();
             }
             // else is a single character non-word token
             else {
-                sentenceTok.tokens.add(new NonWordToken(word));
+                sentenceTok.tokens.add(new NonWordToken(token));
                 firstIndex = lastIndex;
                 lastIndex = wordIterator.next();
             }

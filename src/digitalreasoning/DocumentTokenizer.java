@@ -210,12 +210,12 @@ public class DocumentTokenizer {
         // loop-thru all the tokens (words/non-words) and
         // add the tokens to the sentence token
         while (lastIndex != BreakIterator.DONE) {
-            final String word = source.substring(firstIndex, lastIndex);
-            if (Character.isLetterOrDigit(word.charAt(0))) {
-                sentenceTok.tokens.add(new WordToken(word));
+            final String token = source.substring(firstIndex, lastIndex);
+            if (Character.isLetterOrDigit(token.charAt(0))) {
+                sentenceTok.tokens.add(new WordToken(token));
             } 
             else {
-                sentenceTok.tokens.add(new NonWordToken(word));
+                sentenceTok.tokens.add(new NonWordToken(token));
             }
             firstIndex = lastIndex;
             lastIndex = this.wordIterator.next();

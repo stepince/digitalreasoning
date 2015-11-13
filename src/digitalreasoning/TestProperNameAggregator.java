@@ -1,5 +1,5 @@
 /**
- * This contains the Unti Test class for testing ProperNameAggregator
+ * This contains the Unit Test class for testing ProperNameAggregator
  * 
  */
 package digitalreasoning;
